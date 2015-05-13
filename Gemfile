@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.2.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
-gem 'mongoid'
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -27,7 +27,7 @@ gem 'bourbon'
 gem 'neat'
 gem 'refills'
 
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 
 
